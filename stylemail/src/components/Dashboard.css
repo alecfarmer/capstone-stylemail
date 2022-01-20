@@ -1,0 +1,165 @@
+/**
+  * Dashboard CSS
+  */
+
+#root {
+  background: radial-gradient(circle, rgba(186,88,143,1) 28%, rgba(65,40,160,1) 100%);
+}
+/*
+body {
+  height: 100%;
+  top:0; 
+  bottom:0; 
+  right:0; 
+  left:0;
+  background: #382492;
+}
+*/
+/*styling for the buttons*/
+#options {
+  display: flex;
+}
+
+#btn {
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#btn-outline-dark {
+  align-items: center;
+  margin: 5px;
+  
+}
+
+.dash-button {
+  color: white;
+  background-color:#a2a2e6;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.dash-button:hover {
+  background-color: #372392;
+  color:white;
+}
+
+/*Other Styling*/
+.logo {
+  width: 60%;
+  height: 35%;
+  align-content: center;
+  margin: auto;
+}
+
+.transition {
+  position: absolute;
+  right: 400px;
+}
+
+#sign-btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+footer {
+  background: #a2a2e6;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  content: "\A";
+}
+
+.linking-btns {
+  padding: 20px;
+  height: 20px;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.card.Body {
+  background-color: #372392;
+}
+
+h2 {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+#center {
+  text-align: center;
+}
+
+/*
+.dash-user-email { 
+  text-decoration: underline;
+}
+
+.dash-buttons { 
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dash-btns {
+  color: white;
+  background-color:#a2a2e6;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.dash-btns:hover {
+  background-color: #372392;
+  color:white;
+}
+
+.btn-outline-dark { 
+  align-items: center;
+  margin: 5px;
+}
+
+.btn-outline-dark:hover { 
+  color: #ba588f;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-img {
+    width: 200px;
+    height: 188px;
+  }
+
+  .mobile-size-h1 {
+    font-size: 25px;
+  }
+
+  .mobile-size-h3 {
+    font-size: 15px;
+  }
+
+  .mobile-footer {
+    font-size: medium;
+  }
+}
+*/

@@ -1,0 +1,46 @@
+/**
+  * Contact CSS
+  */
+.contact-content {
+  background-color: white;
+}
+
+.contact-text-div {
+  margin: 25px 25px 25px 25px;
+}
+
+.contact-title {
+  font-size: 30px;
+  margin: 5px 0px 10px 0px;
+}
+
+.contact-sub-text {
+  font-size: 25px;
+}
+
+#contact-email-form {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 0px 10% 0px 10%;
+}
+
+#contact-form {
+  padding: 10px;
+}
+
+#contact-submit-btn {
+  padding: 10px;
+}
+
+/*
+.contact-title::after {
+  content: "";
+  background: #4128a0;
+  width: 65px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+*/

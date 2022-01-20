@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>StyleMail</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="stylemailicon.png">
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  
+  /* Full height image header */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/WebsiteBanner.png");
+    min-height: 100%;
+  }
+  
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #372392;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #b14f82;
+  color: white;
+}
+  </style>
+  <body>
+
+<!-- Navbar (sit on top) -->
+<div class="topnav">
+  <a href="https://stylemail.app/index">Home</a>
+  <a href="https://run.stylemail.app">Login</a>
+  <a href="https://run.stylemail.app">Signup</a>
+  <a class="active" href="https://stylemail.app/help">Help</a>
+  <a href="https://stylemail.app/contact">Contact</a>
+  <a href="https://stylemail.app/privacy">Privacy Policy</a>
+  <a href="https://stylemail.app/terms">Terms of Use</a>
+  <a href="https://stylemail.app/about">About</a>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-purple" style="padding:50px 16px; padding-left: 100px; padding-right: 100px;" id="contact">
+  <h1 class="w3-center">FAQ - Frequently Asked Questions</h1>
+  <h2 class="w4-center"> What is StyleMail? </h2>
+  <p class="w3-center w3-large"> StyleMail is a web app that allows you to pick from and customize stylized HTML and CSS email templates.
+    Simply pick a style, fill out your text and adjust a few settings, then click a button to copy the template into your email client to
+     continue editing. Whether you're looking to give a fun vibe for digital party invitations or a professional vibe for a business memo, spice up your emails with StyleMail!
+  </p>
+  <h2 class="w4-center"> Why do I need to make an account? </h2>
+  <p class="w3-center w3-large"> We understand that you may not want to have to keep track of another username and password. However, even though
+    StyleMail is a free web application, we still ask all users' to create an account. This helps us to keep track of any StyleMail traffic to help
+    bring the best resources to you (our customers)! Through creating an account, you are also able to keep all of your created templates in one locaiton
+    and have them easy accessible. If you have any questions referring to what information is being used from you, please refer to our <a href="https://stylemail.app/terms">Terms</a> and 
+    <a href="https://stylemail.app/privacy">Privacy</a> policies. 
+  </p>
+  <h2 class="w4-center"> Why is StyleMail free? </h2>
+  <p class="w3-center w3-large"> We are very thankful to be able to provide this resource to our customers at no cost. We have a few generous donors 
+    that are able to fund the cost of running this application. We want to continue to provide this resource to you for free as long as we can so that you can continue to 
+    make your own customers, friends, family, or businesses more effective. We are satisfied through helping you reach your own! If you are interested in becoming a sponsor, 
+    please feel free to <a href="https://stylemail.app/contact">contact us</a>.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-32" style="background-color: #372392">
+  <p style="color: white; font-size: 20px;">Copyright © 2021 StyleMail. All rights reserved.</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+  .terms-content {
+    background-color: white;
+  }
+
+  .terms-text-div {
+    margin: 0px 25px 0px 25px;
+  }
+
+  .terms-title {
+    font-size: 30px;
+    margin: 5px 0px 10px 0px
+  }
+
+  .terms-sub-text {
+    font-size: 25px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    
+  }
+  
