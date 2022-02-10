@@ -1,5 +1,7 @@
 # StyleMail
 
+**Final Project Link:** https://capstone.cse.sc.edu/video/2021/StyleMail/
+
 Tired of dull, lifeless emails with boring text and attachments? StyleMail is a web app that allows you to pick from and customize stylized HTML and CSS email templates. Simply pick a style, fill out your text and adjust a few settings, then click a button to copy the template into your email client to continue editing. Whether you're looking to give a fun vibe for digital party invitations or a professional vibe for a business memo, spice up your emails with StyleMail!  
 
 Important Links:  
